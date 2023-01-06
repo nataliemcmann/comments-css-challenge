@@ -2,12 +2,27 @@
     outline: solid 1px red;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15% 5% 15%;
+}
+
 .comment {
     display: flex;
 }
 
 .vote-on-comment {
+}
 
+.sub-container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.cheading {
+ display: flex;
 }
 
 .profile-image {
