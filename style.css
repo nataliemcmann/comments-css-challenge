@@ -1,0 +1,16 @@
+* {
+    outline: solid 1px red;
+}
+
+.comment {
+    display: flex;
+}
+
+.vote-on-comment {
+
+}
+
+.profile-image {
+    width: 64px;
+    height: 64px;
+}
