@@ -24,73 +24,101 @@
 
   <!-- Comment #1 -->
   <section class="comment"> 
-    <aside class="vote-on-comment">
-      <button class="up vote" aria-label="up-vote"> + </button>
-      <p>12</p>
-      <button class="down vote" aria-label="down-vote"> - </button>
-    </aside>
-    <section class="sub-container1">
-      <section class="cheading">
-        <img class="profile-image" src="./images/avatars/image-amyrobson.png" alt="profile" />
-        <p class="username">amyrobson</p>
-        <p class="post-age">1 month ago</p>
-      </section>  
-      <p class="content">
-      Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. 
-      You've nailed the design and the responsiveness at various breakpoints works really well.
-      </p>
-    </section>
+    <section class="sub-container1"> 
+      <aside class="vote-on-comment">
+        <div class ="vote-container">
+          <button class="up vote" aria-label="up-vote"> + </button>
+          <p class="count">12</p>
+          <button class="down vote" aria-label="down-vote"> - </button>
+        </div>
+      </aside>
+      <section class="sub-container2">
+        <section class="cheading">
+          <img class="profile-image" src="./images/avatars/image-amyrobson.png" alt="profile" />
+          <p class="username">amyrobson</p>
+          <p class="post-age">1 month ago</p>
+        </section>  
+        <p class="content">
+        Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. 
+        You've nailed the design and the responsiveness at various breakpoints works really well.
+        </p>
+      </section>
+    </section>  
   </section>
 
   <!-- Comment #2 -->
   <section class="comment">
-    <aside class="vote-on-comment">
-      <button class="up vote" aria-label="up-vote"> + </button>
-      <p>5</p>
-      <button class="down vote" aria-label="down-vote"> - </button>
-    </aside>  
-    <section class="sub-container1">
-      <section class="cheading">
-        <img class="profile-image" src="./images/avatars/image-maxblagun.png" alt="profile" />
-        <p class="username">maxblagun</p>
-        <p class="post-age">2 weeks ago</p>
+    <section class="sub-container1"> 
+      <aside class="vote-on-comment">
+        <div class ="vote-container">
+          <button class="up vote" aria-label="up-vote"> + </button>
+          <p class="count">5</p>
+          <button class="down vote" aria-label="down-vote"> - </button>
+        </div>  
+      </aside>  
+      <section class="sub-container2">
+        <section class="cheading">
+          <img class="profile-image" src="./images/avatars/image-maxblagun.png" alt="profile" />
+          <p class="username">maxblagun</p>
+          <p class="post-age">2 weeks ago</p>
+        </section>
+        <p class="content">
+          Woah, your project looks awesome! How long have you been coding for? 
+          I'm still new, but think I want to dive into React as well soon. 
+          Perhaps you can give me an insight on where I can learn React? Thanks!
+        </p>
       </section>
-      <p class="content">
-        Woah, your project looks awesome! How long have you been coding for? 
-        I'm still new, but think I want to dive into React as well soon. 
-        Perhaps you can give me an insight on where I can learn React? Thanks!
-      </p>
-    </section>
-  </section>
-  <!-- Comment #3 (Reply to comment #2) -->
-    <section class="comment reply">
-      <aside class="vote-on-comment">
-        <button class="up vote" aria-label="up-vote"> + </button>
-        <p>4</p>
-        <button class="down vote" aria-label="down-vote"> - </button>
-      </aside>  
-    <img class="profile-image" src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-    ramsesmiron 
-    1 week ago
-    @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
-    </section>
-    <!-- Comment #4 (Reply to comment #2) -->
-    <section class="comment reply">
-      <aside class="vote-on-comment">
-        <button class="up vote" aria-label="up-vote"> + </button>
-        <p>2</p>
-        <button class="down vote" aria-label="down-vote"> - </button>
-      </aside>  
-    <img class="profile-image" src="./images/avatars/image-juliusomo.png" alt="profile" />
-    juliusomo 
-    2 days ago
-    @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
-    </section>
     </section>
   
-  <div class="attribution">
-    Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <!-- Comment #3 (Reply to comment #2) -->
+      <!-- <section class="comment"> -->
+      <section class="reply">
+        <section class="sub-container1"> 
+          <aside class="vote-on-comment">
+            <div class ="vote-container">
+              <button class="up vote" aria-label="up-vote"> + </button>
+              <p class="count">4</p>
+              <button class="down vote" aria-label="down-vote"> - </button>
+            </div>
+          </aside>  
+          <section class="sub-container2">
+            <section class="cheading">
+              <img class="profile-image" src="./images/avatars/image-ramsesmiron.png" alt="profile" />
+              <p class="username">ramsesmiron</p>
+              <p class="post-age">1 week ago</p>
+            </section>
+            <p class="content">
+              @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, 
+              and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+            </p>
+          </section>
+        </section>   
+      <!-- Comment #4 (Reply to comment #2) -->
+        <section class="sub-container1">
+          <aside class="vote-on-comment">
+            <div class ="vote-container">
+              <button class="up vote" aria-label="up-vote"> + </button>
+              <p class="count">2</p>
+              <button class="down vote" aria-label="down-vote"> - </button>
+            </div>  
+          </aside>
+          <section class="sub-container2">
+            <section class="cheading">
+              <img class="profile-image" src="./images/avatars/image-juliusomo.png" alt="profile" />
+              <p class="username">juliusomo</p>
+              <p class="post-age">2 days ago</p>
+            </section>
+            <p class="content">  
+              @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems 
+              like everyone knows the newest library/framework. But the fundamentals are what stay constant.
+            </p>
+        </section>     
+      </section>   
+  </section>
+
 </body>
+<!-- <footer class="attribution">
+  Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</footer> -->
 </html>

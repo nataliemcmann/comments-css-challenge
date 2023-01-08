@@ -1,31 +1,99 @@
-* {
+/* * {
     outline: solid 1px red;
-}
+} */
 
 body {
     display: flex;
     flex-direction: column;
-    margin: 5% 15% 5% 15%;
+    margin: 5% 20% 5% 20%;
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(228, 33%, 97%);
 }
 
 .comment {
     display: flex;
+    flex-direction: column;
+    margin: 1%;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 100%);
 }
 
-.vote-on-comment {
+aside {
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 100%);
 }
+
+.vote-container {
+    background-color: hsl(228, 33%, 97%);
+    margin: 60% 2%;
+    border-radius: 5px;
+    text-align: center;
+    width: auto;
+}
+
+.vote {
+    appearance: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(220, 12%, 85%);
+    border: none;
+    background-color: hsl(228, 33%, 97%);
+    /* margin: 2%; */
+}
+
+.count {
+    color: hsl(238, 40%, 52%);
+}
+
+.reply {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+/* .vote-on-comment {
+} */
 
 .sub-container1 {
     display: flex;
+    flex-direction: row;
+}
+
+.sub-container2 {
+    display: flex;
     flex-direction: column;
     align-content: space-between;
+    flex-grow: 2;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
 }
 
 .cheading {
- display: flex;
+    display: flex;
+    padding: 0.2%;
+    align-items: center;
 }
 
 .profile-image {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
+    padding: 1%;
+}
+
+.username {
+    padding: 1%;
+    font-weight: bold;
+}
+
+.post-age {
+    padding: 1%;
+}
+
+.content {
+    font-size: 16px;
+    padding: 1%;
 }
